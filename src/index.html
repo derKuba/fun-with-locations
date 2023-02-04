@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Parcel App</title>
+  </head>
+  <body>
+    <label for="location-choice">Wähle eine Stadt:</label>
+    <input list="locations" id="location-choice" name="location-choice" />
+
+    <datalist id="locations"> </datalist>
+
+    <div id="results" style="width: 400px; margin-top: 50px"></div>
+
+    <script src="./createDatalist.js"></script>
+    <script src="./onPropertyChange.js"></script>
+  </body>
+</html>
